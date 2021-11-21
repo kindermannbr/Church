@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Church.App.Repositories.Member
 {
-    class MemberShowRepository : IMemberShowRepository
+    class MemberRetrieverRepository : IMemberRetrieverRepository
     {
     }
 }

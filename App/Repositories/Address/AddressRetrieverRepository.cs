@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Church.App.Repositories.Address
 {
-    public class AddressFinderRepository : IAddressFinderRepository
+    public class AddressRetrieverRepository : IAddressRetrieverRepository
     {
         public async Task FindAddress(string cep)
         {

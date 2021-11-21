@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Church.App.Repositories.Address
 {
-    interface IAddressFinderRepository
+    interface IAddressRetrieverRepository
     {
         Task FindAddress(string cep);
     }

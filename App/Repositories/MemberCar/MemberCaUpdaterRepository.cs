@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Church.App.Repositories.MemberCar
 {
-    class MemberCarShowRepository : IMemberCarShowRepository
+    class MemberCaUpdaterRepository : IMemberCarUpdaterRepository
     {
     }
 }

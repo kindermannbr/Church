@@ -7,7 +7,7 @@ namespace Church
     {
         static void Main(string[] args)
         {
-            AddressFinderRepository addressFinderRepository = new AddressFinderRepository();
+            AddressRetrieverRepository addressFinderRepository = new AddressRetrieverRepository();
 
             Console.WriteLine("Digite seu CEP");
             string cep = Console.ReadLine();

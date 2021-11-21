@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Church.App.Repositories.MemberCar
 {
-    interface IMemberCarAlterRepository
+    class MemberCarRetrieverRepository : IMemberCarRetrieverRepository
     {
     }
 }

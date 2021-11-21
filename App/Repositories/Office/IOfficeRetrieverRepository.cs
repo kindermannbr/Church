@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Church.App.Repositories.Office
 {
-    class OfficeAlterRepository : IOfficeAlterRepository
+    interface IOfficeRetrieverRepository
     {
     }
 }

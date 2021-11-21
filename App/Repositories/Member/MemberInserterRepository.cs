@@ -7,7 +7,7 @@ namespace Church.App.Repositories.Member
 {
     class MemberInserterRepository : IMemberInserterRepository
     {
-        public bool InsertMember(string name, string gender, int cepaddress, string streetaddress, string neighborhoodadrress, int numberaddress, string complementaddress, string stateaddress, string ufaddress, int dddphone, int numberphone, string office, string memberactiveinchurch, DateTime startmemberdateinchurch)
+        public bool InsertMember(string name, string gender, int cepaddress, string streetaddress, string neighborhoodadrress, int numberaddress, string complementaddress, string stateaddress, string ufaddress, int dddphone, int numberphone, string office, string memberactiveinchurch, DateTime startmemberdateinchurch, DateTime birthdate)
         {
             bool success = false;
 
@@ -15,7 +15,7 @@ namespace Church.App.Repositories.Member
             using (MySqlConnection mySqlConnection = new MySqlConnection())
             {
                 MySqlCommand mySqlCommand = new MySqlCommand();
-                mySqlCommand.CommandText = $"insert into member (name, gender, cepaddress, streetaddress, neighborhoodadrress, numberaddress, complementaddress, stateaddress, ufaddress, dddphone, numberphone, startmemberdateinchurch, memberactiveinchurch) values ('{name}', '{gender}', {cepaddress}, '{streetaddress}', '{neighborhoodadrress}', {numberaddress}, '{complementaddress}', '{stateaddress}', '{ufaddress}', {dddphone}, {numberphone}, '{startmemberdateinchurch}', '{memberactiveinchurch}')";
+                mySqlCommand.CommandText = $"insert into member (name, gender, cepaddress, streetaddress, neighborhoodadrress, numberaddress, complementaddress, stateaddress, ufaddress, dddphone, numberphone, startmemberdateinchurch, memberactiveinchurch, birthdate) values ('{name}', '{gender}', {cepaddress}, '{streetaddress}', '{neighborhoodadrress}', {numberaddress}, '{complementaddress}', '{stateaddress}', '{ufaddress}', {dddphone}, {numberphone}, '{startmemberdateinchurch}', '{memberactiveinchurch}', '{birthdate}')";
                 int affectedRows = mySqlCommand.ExecuteNonQuery();
 
                 success = affectedRows > 0;

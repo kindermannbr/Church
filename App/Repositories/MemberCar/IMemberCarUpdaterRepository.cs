@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Church.App.Repositories.Office
+namespace Church.App.Repositories.MemberCar
 {
-    interface IOfficeAlterRepository
+    interface IMemberCarUpdaterRepository
     {
     }
 }
