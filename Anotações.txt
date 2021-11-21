@@ -1,0 +1,3 @@
+﻿Fazer Office por composição => Member
+
+App para "levar água (SignalR)" . Mapear assentos da igreja. (Fazer via web mesmo)

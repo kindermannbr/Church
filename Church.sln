@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Church", "Church.csproj", "{39FC3BE5-5BD3-42CF-991B-7CF9CD82753E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Church.Tests", "..\Church.Tests\Church.Tests.csproj", "{CCD70A69-6AB6-4AC2-B0E5-24E5D24FA8BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39FC3BE5-5BD3-42CF-991B-7CF9CD82753E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FC3BE5-5BD3-42CF-991B-7CF9CD82753E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FC3BE5-5BD3-42CF-991B-7CF9CD82753E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FC3BE5-5BD3-42CF-991B-7CF9CD82753E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD70A69-6AB6-4AC2-B0E5-24E5D24FA8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD70A69-6AB6-4AC2-B0E5-24E5D24FA8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD70A69-6AB6-4AC2-B0E5-24E5D24FA8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD70A69-6AB6-4AC2-B0E5-24E5D24FA8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFF150A2-5FBB-459F-B440-82A46C03C0B9}
+	EndGlobalSection
+EndGlobal
