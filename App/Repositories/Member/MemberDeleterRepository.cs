@@ -7,7 +7,7 @@ namespace Church.App.Repositories.Member
 {
     class MemberDeleterRepository : IMemberDeleterRepository
     {
-        public bool DeleteMember(string memberActiveInChurch, int id_member)
+        public bool InactiveChurch(int id_member)
         {
             bool success = false;
             //essa classe não irá deletar. Apenas irá alterar o campo memberActiveInChurch, informando que ele não está mais ativo

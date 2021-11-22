@@ -6,6 +6,6 @@ namespace Church.App.Repositories.Member
 {
     interface IMemberDeleterRepository
     {
-        bool DeleteMember(string memberActiveInChurch, int id_member);
+        bool InactiveChurch(int id_member);
     }
 }
