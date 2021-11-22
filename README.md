@@ -32,8 +32,9 @@ Utilizei a API https://viacep.com.br , para busca do endereço, utilizando o CEP
 
 ## Features (Roadmap):
 
-- [] Cadastro de usuário;
-- [] Cadastro de carro;
-- [] Cadastro de cargo;
-- [] Funcionalidade para que o usuário se comunique com os obreiros, durante o culto;
-- [] Módulo de contabilidade;
+- [ ] Cadastro de igreja;
+- [ ] Cadastro de usuário;
+- [ ] Cadastro de carro;
+- [ ] Cadastro de cargo;
+- [ ] Funcionalidade para que o usuário se comunique com os obreiros, durante o culto;
+- [ ] Módulo de contabilidade;
