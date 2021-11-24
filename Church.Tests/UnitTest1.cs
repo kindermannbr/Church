@@ -8,7 +8,10 @@ namespace Church.Tests
         [Fact]
         public void Test1()
         {
+            void Test()
+            {
 
+            }
         }
     }
 }
