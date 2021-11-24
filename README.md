@@ -9,7 +9,7 @@
 Os dados necessários são:
 - Todos os dados pessoais dos usuários (endereço, telefone, etc...).
 - Dados do veículo do usuários da igreja: caso precise localizar o dono do veículo, ficará mais fácil.
-- Cargo que o usuários ocupa dentro da igreja.
+- Cargo que o usuário ocupa dentro da igreja.
 - Cadastro de cargos (diácono, pastor, etc...), indicando a função de cada cargo; além do mais, precisará configurar a permissão de cada cargo: (qual cargo que poderá ver a lista de membros, etc...)
 
 ## Features futuras:
@@ -32,8 +32,10 @@ Utilizei a API https://viacep.com.br , para busca do endereço, utilizando o CEP
 
 ## Features (Roadmap):
 
-- [] Cadastro de usuário;
-- [] Cadastro de carro;
-- [] Cadastro de cargo;
-- [] Funcionalidade para que o usuário se comunique com os obreiros, durante o culto;
-- [] Módulo de contabilidade;
+- [ ] Cadastro de igreja;
+- [ ] Cadastro de usuário;
+- [ ] Cadastro de carro;
+- [ ] Cadastro de cargo;
+- [ ] Login no app;
+- [ ] Funcionalidade para que o usuário se comunique com os obreiros, durante o culto;
+- [ ] Módulo de contabilidade;
