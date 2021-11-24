@@ -9,23 +9,6 @@ namespace Church.App.Domains
     class Member
     {
 
-        public Member(string name, string gender, int cepaddress, string streetaddress, string neighborhoodadrress, int numberaddress, string complementaddress, string stateaddress, string ufaddress, int dddphone, int numberphone, string office, string memberactiveinchurch, DateTime startmemberdateinchurch, DateTime birthdate)
-        {
-            Name = name;
-            Gender = gender;
-            CepAddress = cepaddress;
-            StreetAddress = streetaddress;
-            NeighborhoodAdrress = neighborhoodadrress;
-            NumberAddress = numberaddress;
-            ComplementAddress = complementaddress;
-            StateAddress = stateaddress;
-            UfAddress = ufaddress;
-            DddPhone = dddphone;
-            NumberPhone = numberphone;
-            MemberActiveInChurch = memberactiveinchurch;
-            StartMemberDateinChurch = startmemberdateinchurch;
-            Birthdate = birthdate;
-        }
         public string Name
         { get; set; }
         public string Gender //incluir "Outros"

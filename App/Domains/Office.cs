@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Church.App.Domains
 {
-
-    //composição com member
     //classe para cargos da igreja
     class Office
     {

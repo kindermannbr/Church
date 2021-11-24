@@ -6,20 +6,6 @@ namespace Church.App.Domains
 {
     class Church
     {
-        public Church(string name, string cnpj, int cepAddress, string streetAddress, string neighborhoodAdrress, int numberAddress, string stateAddress, string ufAddress, DateTime inaugurationDate, string cadasterIsActive, string complementAddress)
-        {
-            Name = name;
-            Cnpj = cnpj;
-            CepAddress = cepAddress;
-            StreetAddress = streetAddress;
-            NeighborhoodAdrress = neighborhoodAdrress;
-            NumberAddress = numberAddress;
-            StateAddress = stateAddress;
-            UfAddress = ufAddress;
-            InaugurationDate = inaugurationDate;
-            CadasterIsActive = cadasterIsActive;
-            ComplementAddress = complementAddress;
-        }
 
         public string Name
         { get; set; }

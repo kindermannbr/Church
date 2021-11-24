@@ -6,13 +6,6 @@ namespace Church.App.Domains
 {
     class MemberCar
     {
-        public MemberCar(string make, string model, string plate,string carowner)
-        {
-            Make = make;
-            Model = model;
-            Plate = plate;
-            CarOwner = carowner;
-        }
 
         public string Make 
         { get; set; }
